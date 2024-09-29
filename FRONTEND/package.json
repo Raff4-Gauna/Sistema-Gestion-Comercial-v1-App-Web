@@ -1,17 +1,21 @@
 {
-  "name": "gestion-comercial",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "accessible-astro-dashboard",
+  "description": "An Accessible Dashboard Theme for Astro including a login page, a dashboard page and several other pages and components.",
+  "version": "1.1.4",
+  "author": "Mark Teekman",
+  "homepage": "https://accessible-astro.dev",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^4.15.6",
-    "@astrojs/check": "^0.9.3",
-    "typescript": "^5.6.2"
+    "accessible-astro-components": "^1.5.7",
+    "astro-icon": "^0.7.3"
+  },
+  "devDependencies": {
+    "astro": "^1.4.4",
+    "sass": "^1.49.9"
   }
 }
